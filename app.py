@@ -5,9 +5,10 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
-    <h1>Hello DevOps!</h1>
+    <h1>Hello DevOps Engineer!</h1>
     <h2>Git + GitHub Actions + GitLab Practice</h2>
     <p>My application is running successfully.</p>
+    <p>My first CI/CD project.</p>
     """
 
 if __name__ == "__main__":
